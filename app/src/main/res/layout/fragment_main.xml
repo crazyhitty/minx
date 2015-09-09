@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:id="@+id/main_frame"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <com.github.leonardoxh.customfont.FontText
+            android:id="@+id/welcome_title_txt"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center_horizontal"
+            android:text="@string/welcome_title"
+            android:textColor="@color/my_text"
+            android:textSize="@dimen/textSizeHumongous"
+            app:font="gridnik" />
+
+        <com.github.leonardoxh.customfont.FontText
+            android:id="@+id/welcome_body_txt"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/welcome_body"
+            android:textColor="@color/my_text"
+            android:textSize="@dimen/textSizeBig"
+            android:layout_marginLeft="@dimen/marginSmall"
+            android:layout_marginRight="@dimen/marginSmall"
+            android:layout_marginTop="@dimen/marginBig"
+            android:layout_marginBottom="@dimen/marginSmall"
+            app:font="bitterregular" />
+
+
+        <LinearLayout
+            android:id="@+id/imageLayout"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            android:orientation="vertical">
+
+            <ImageView
+                android:id="@+id/imageFace"
+                android:layout_width="match_parent"
+                android:layout_height="200dp"
+                android:scaleType="fitCenter"
+                android:src="@drawable/happy_face" />
+
+            <com.github.leonardoxh.customfont.FontText
+                android:id="@+id/network_txt"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:visibility="invisible"
+                android:layout_marginTop="@dimen/marginSmall"
+                android:gravity="center_horizontal"
+                android:text="@string/no_network"
+                android:textColor="@color/my_text"
+                android:textSize="@dimen/textSizeSmall"
+                app:font="bitterregular" />
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+</LinearLayout>

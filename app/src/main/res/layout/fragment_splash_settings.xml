@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:padding="@dimen/paddingBig">
+
+            <com.github.leonardoxh.customfont.FontText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/marginSmall"
+                android:gravity="center_horizontal"
+                android:text="@string/tutorial_splash_change_font"
+                android:textColor="@color/my_text"
+                android:textSize="@dimen/textSizeHuge"
+                app:font="gridnik" />
+
+            <com.github.leonardoxh.customfont.FontText
+                android:id="@+id/tutorial_splash_title"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/marginBig"
+                android:gravity="center_horizontal"
+                android:text="@string/tutorial_splash_title_sample"
+                android:textColor="@color/my_text"
+                android:textSize="@dimen/textSizeHumongous"
+                app:font="gridnik" />
+
+            <com.github.leonardoxh.customfont.FontText
+                android:id="@+id/tutorial_splash_body"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="@dimen/activity_vertical_margin"
+                android:layout_marginTop="@dimen/marginSmall"
+                android:text="@string/tutorial_splash_body_sample"
+                android:textColor="@color/my_text"
+                android:textSize="@dimen/textSizeBig"
+                app:font="bitterregular" />
+
+            <com.weiwangcn.betterspinner.library.material.MaterialBetterSpinner
+                android:id="@+id/titleFontSizeSpinner"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/marginBig"
+                android:layout_marginBottom="@dimen/activity_vertical_margin"
+                android:hint="@string/tutorial_splash_title_font"
+                app:met_floatingLabel="normal" />
+
+            <com.weiwangcn.betterspinner.library.material.MaterialBetterSpinner
+                android:id="@+id/bodyFontSizeSpinner"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/marginBig"
+                android:layout_marginBottom="@dimen/activity_vertical_margin"
+                android:hint="@string/tutorial_splash_body_font"
+                app:met_floatingLabel="normal" />
+
+        </LinearLayout>
+
+    </ScrollView>
+
+</RelativeLayout>

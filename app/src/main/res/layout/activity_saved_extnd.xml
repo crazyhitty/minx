@@ -1,0 +1,74 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/my_background"
+    tools:context="com.chdev.ks.minx.SavedExtndActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <android.support.v7.widget.Toolbar
+            android:id="@+id/saved_extnd_toolbar"
+            android:layout_width="match_parent"
+            android:layout_height="?attr/actionBarSize"
+            android:background="?attr/colorPrimary"></android.support.v7.widget.Toolbar>
+
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical"
+                android:padding="@dimen/paddingSmall">
+
+                <com.github.leonardoxh.customfont.FontText
+                    android:id="@+id/saved_extnd_title_txt"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="center_horizontal"
+                    android:text="@string/welcome_title"
+                    android:textColor="@color/my_text"
+                    android:textIsSelectable="true"
+                    android:textSize="@dimen/textSizeHumongous"
+                    app:font="gridnik" />
+
+                <com.github.leonardoxh.customfont.FontText
+                    android:id="@+id/saved_extnd_url_txt"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="@dimen/marginSmall"
+                    android:layout_marginLeft="@dimen/marginSmall"
+                    android:layout_marginRight="@dimen/marginSmall"
+                    android:layout_marginTop="@dimen/marginBig"
+                    android:textColor="@color/my_text_light"
+                    android:textIsSelectable="true"
+                    android:textSize="@dimen/textSizeSmall"
+                    app:font="bitterregular" />
+
+                <com.github.leonardoxh.customfont.FontText
+                    android:id="@+id/saved_extnd_body_txt"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="@dimen/marginSmall"
+                    android:layout_marginLeft="@dimen/marginSmall"
+                    android:layout_marginRight="@dimen/marginSmall"
+                    android:layout_marginTop="@dimen/marginBig"
+                    android:text="@string/welcome_body"
+                    android:textColor="@color/my_text"
+                    android:textIsSelectable="true"
+                    android:textSize="@dimen/textSizeBig"
+                    app:font="bitterregular" />
+
+            </LinearLayout>
+
+        </ScrollView>
+
+    </LinearLayout>
+
+</RelativeLayout>
