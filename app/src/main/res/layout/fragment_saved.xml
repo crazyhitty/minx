@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <com.github.leonardoxh.customfont.FontText
+        android:id="@+id/title_txt"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_horizontal"
+        android:text="@string/saved_pages"
+        android:textColor="@color/my_text"
+        android:textSize="@dimen/textSizeHumongous"
+        app:font="gridnik" />
+
+    <com.github.leonardoxh.customfont.FontText
+        android:id="@+id/enter_pin_txt"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/marginBig"
+        android:gravity="center_horizontal"
+        android:text="@string/enter_pin"
+        android:textColor="@color/my_text"
+        android:textSize="@dimen/textSizeHuge"
+        app:font="gridnik" />
+
+    <EditText
+        android:id="@+id/userArchivePinTxt"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="@dimen/marginBig"
+        android:layout_marginRight="@dimen/marginBig"
+        android:layout_marginTop="@dimen/marginBig"
+        android:gravity="center_horizontal"
+        android:hint="@string/pin_hint"
+        android:inputType="numberPassword"
+        android:maxLength="4" />
+
+    <Button
+        android:id="@+id/btnRetrieveArchive"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="@dimen/marginBig"
+        android:text="@string/retrieve_archive" />
+
+    <ListView
+        android:id="@+id/saved_list"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginBottom="@dimen/marginSmall"
+        android:layout_marginLeft="@dimen/marginSmall"
+        android:layout_marginRight="@dimen/marginSmall" />
+
+</LinearLayout>

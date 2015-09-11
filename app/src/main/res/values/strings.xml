@@ -1,0 +1,150 @@
+<resources>
+    <string name="app_name">MinX</string>
+
+    <string name="hello_world">Hello world!</string>
+
+    <string name="action_settings">Settings</string>
+    <string name="action_search">Search</string>
+    <string name="action_cancel">Cancel</string>
+    <string name="action_item">Action item</string>
+
+    <string name="welcome_title">Hi, there !</string>
+    <string name="welcome_body">Hello user, type any web address in above search box and hit enter.</string>
+
+    <string name="exit_dialog_title">Are you sure ?</string>
+    <string name="exit_dialog_yes">Yes</string>
+    <string name="exit_dialog_cancel">Cancel</string>
+
+    <string name="error">Something went wrong !\nPlease try again .</string>
+
+    <string name="random">Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem. Ut enim ad minima veniam, quis nostrum exercitationem ullam corporis suscipit laboriosam, nisi ut aliquid ex ea commodi consequatur? Quis autem vel eum iure reprehenderit qui in ea voluptate velit esse quam nihil molestiae consequatur, vel illum qui dolorem eum fugiat quo voluptas nulla pariatur?</string>
+    <string name="drawer_item_home">Home</string>
+    <string name="drawer_item_share">Share</string>
+    <string name="drawer_item_settings">Settings</string>
+    <string name="drawer_item_about">About</string>
+
+    <string name="btn_view_links">View Links</string>
+
+    <string name="btn_github">Github</string>
+
+    <string name="btn_google_plus">G Plus</string>
+
+    <string name="btn_mail">Mail</string>
+
+    <string name="dialog_link_title">Links</string>
+
+    <string name="no_network">No network available, please check your connection.</string>
+    <string name="about_me">Minx Ver 0.1 \nCreate By Kartik Sharma</string>
+    <string name="libraries_used">Libraries Used</string>
+
+    <string-array name="library_name">
+        <item>Jsoup</item>
+        <item>Butter Knife</item>
+        <item>MaterialDrawer</item>
+        <item>Custom Font</item>
+        <item>Material Ripple Layout</item>
+        <item>Material Dialogs</item>
+        <item>Material-ish Progress</item>
+        <item>BetterSpinner</item>
+    </string-array>
+
+    <string-array name="library_desc">
+        <item>Library for working with real-world HTML. It provides a very convenient API for extracting and manipulating data, using the best of DOM, CSS, and jquery-like methods.</item>
+        <item>ButterKnife is a view "injection" library for Android which uses annotation processing to generate boilerplate code for you.</item>
+        <item>The MaterialDrawer library aims to provide a quick and easy Activity to create and implement a drawer layout in your application.</item>
+        <item>This library let you apply custom fonts to your android projects.</item>
+        <item>Material-ripple allows to add ripple effect wrapper for Android views.</item>
+        <item>Material-dialogs library allows you to use a consistently Material themed dialog on all versions of Android, along with specific customizations that make it easier to brand the dialog.</item>
+        <item>Materialish-progress is a material style progress wheel compatible with 2.3.</item>
+        <item>An alternative to default spinners in android with a sweet touch of material design.</item>
+    </string-array>
+
+    <string-array name="library_url">
+        <item>https://github.com/jhy/jsoup/</item>
+        <item>https://github.com/JakeWharton/butterknife</item>
+        <item>https://github.com/mikepenz/MaterialDrawer</item>
+        <item>https://github.com/leonardoxh/CustomFont</item>
+        <item>https://github.com/balysv/material-ripple</item>
+        <item>https://github.com/afollestad/material-dialogs</item>
+        <item>https://github.com/pnikosis/materialish-progress</item>
+        <item>https://github.com/Lesilva/BetterSpinner</item>
+    </string-array>
+
+    <string-array name="drawer_items">
+        <item>Item Home 1</item>
+        <item>Item Home 2</item>
+        <item>Item Home 3</item>
+        <item>Item Home 4</item>
+        <item>Item Settings</item>
+    </string-array>
+    <string name="title_activity_error">ErrorActivity</string>
+    <string name="error_title">Oops!</string>
+    <string name="error_body">Looks like we had a little bit of problem, please restart the application.</string>
+    <string name="btn_restart_app">Restart App</string>
+    <string name="saved_pages">Archive</string>
+    <string name="action_save">Save</string>
+    <string name="drawer_item_saved">Saved</string>
+    <string name="dialog_save_title">Save current webpage</string>
+    <string name="dialog_save">Save</string>
+    <string name="dialog_save_title_hint">Title</string>
+    <string name="dialog_save_desc_hint">Description</string>
+    <string name="dialog_save_url_hint">Url</string>
+    <string name="title">Title</string>
+    <string name="url">Url</string>
+    <string name="sharedPrefs">DEFAULT_SP</string>
+    <string name="title_activity_saved_extnd">SavedExtndActivity</string>
+    <string name="action_delete">Delete</string>
+    <string name="action_share">Share</string>
+    <string name="are_you_sure">Are you sure ?</string>
+    <string name="title_activity_splash">SplashActivity</string>
+    <string name="welcome_splash">Welcome</string>
+    <string name="welcome_splash_desc">A minimalistic,\ntext based web browser</string>
+    <string name="next">Next</string>
+    <string name="previous">Previous</string>
+    <string name="tutorial_splash_search">Enter any url in the search bar</string>
+    <string name="tutorial_splash_share">Or you can open any url from another application.</string>
+    <string name="Ok">Ok</string>
+    <string name="tutorial_splash_title_sample">Title : Lorem ipsum</string>
+    <string name="tutorial_splash_body_sample">Body : Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo.</string>
+    <string name="tutorial_splash_title_font">Change title font size</string>
+    <string name="tutorial_splash_body_font">Change body font size</string>
+    <string name="tutorial_splash_change_font">Change font size\n[Default : Title : 30 ; Body : 20]</string>
+    <string name="pin_splash_title">Protect your archive</string>
+    <string name="pin_splash_desc">Enter any 4 digit(numeric) PIN.\nYou can also leave it blank if you don\'t want to use this feature.</string>
+    <string name="pin_hint">4 digit PIN</string>
+    <string name="pin_old_hint">Old 4 digit PIN</string>
+    <string name="pin_new_hint">New 4 digit PIN</string>
+    <string name="save_pin">Save PIN</string>
+
+    <string-array name="splash_title_entries">
+        <item>20</item>
+        <item>25</item>
+        <item>30</item>
+    </string-array>
+
+    <string-array name="splash_body_entries">
+        <item>15</item>
+        <item>20</item>
+        <item>25</item>
+    </string-array>
+
+    <string name="title_activity_init">InitActivity</string>
+    <string name="enter_pin">Please enter 4 digit PIN inorder to access archive.</string>
+    <string name="retrieve_archive">Retrieve Archive</string>
+    <string name="settings">Settings</string>
+    <string name="changeFontSize">Change Font Size\n[Default : Title : 30 ; Body : 20]</string>
+    <string name="resetDatabase">Reset Archive Database</string>
+    <string name="resetDatabaseDesc">Delete all the values from the user archive database. Using this feature will delete every saved article.</string>
+    <string name="resetPIN">Reset PIN</string>
+    <string name="resetPINDesc">Reset current PIN. You will need the original PIN inorder to change it.</string>
+    <string name="minx_website">http://minx.crazyhitty.com</string>
+    <string name="github_website">https://github.com/crazyhitty/minx/</string>
+    <string name="google_plus_website">https://plus.google.com/u/0/+KartikSharma0/posts</string>
+    <string name="mail_id">cr42yh17m4n@gmail.com</string>
+    <string name="mail_subject">Regarding Minx Development</string>
+    <string name="confirm_PIN">Confirm PIN</string>
+    <string name="new_pin_dialog_title">No PIN available</string>
+    <string name="new_PIN">Enter new PIN</string>
+    <string name="new_pin_enter">No PIN available</string>
+
+</resources>
