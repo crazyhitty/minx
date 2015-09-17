@@ -1,6 +1,13 @@
 # Minx
 A minimalistic, text based web browser for android.
 
+<a href="https://play.google.com/store/apps/details?id=com.chdev.ks.minx">
+  <img alt="Get it on Google Play"
+       src="https://developer.android.com/images/brand/en_generic_rgb_wo_45.png" />
+</a>
+
+[![Android Arsenal](https://img.shields.io/badge/Android%20Arsenal-Minx-brightgreen.svg?style=flat)](http://android-arsenal.com/details/3/2502)
+
 #Who is Minx for ?
 It is intended for those users who don’t like adverts on webpages or enjoy reading content from websites but unfortunately these websites don’t scale well on smartphone screens. Minx grabs textual data from websites and represents it to the user in a readable format. This app also removes any possibility of websites tracking user data as no cookies or user details are shared with the website. It uses jsoup to parse html data into string values which can further be displayed to the user.
 
