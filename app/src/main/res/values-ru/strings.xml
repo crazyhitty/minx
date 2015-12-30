@@ -1,0 +1,150 @@
+<resources>
+    <string name="app_name">MinX</string>
+
+    <string name="hello_world">Hello world!</string>
+
+    <string name="action_settings">Настройки</string>
+    <string name="action_search">Поиск</string>
+    <string name="action_cancel">Отмена</string>
+    <string name="action_item">Action item</string>
+
+    <string name="welcome_title">Привет!</string>
+    <string name="welcome_body">Здравствуй, пользователь, введи любой адрес в поле выше и нажми Enter.</string>
+
+    <string name="exit_dialog_title">Вы уверены?</string>
+    <string name="exit_dialog_yes">Да</string>
+    <string name="exit_dialog_cancel">Отмена</string>
+
+    <string name="error">Что-то пошло не так!\nПопробуйте позже.</string>
+
+    <string name="random">Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem. Ut enim ad minima veniam, quis nostrum exercitationem ullam corporis suscipit laboriosam, nisi ut aliquid ex ea commodi consequatur? Quis autem vel eum iure reprehenderit qui in ea voluptate velit esse quam nihil molestiae consequatur, vel illum qui dolorem eum fugiat quo voluptas nulla pariatur?</string>
+    <string name="drawer_item_home">Домой</string>
+    <string name="drawer_item_share">Поделиться</string>
+    <string name="drawer_item_settings">Настройки</string>
+    <string name="drawer_item_about">О программе</string>
+
+    <string name="btn_view_links">Посмотреть ссылки</string>
+
+    <string name="btn_github">Github</string>
+
+    <string name="btn_google_plus">G Plus</string>
+
+    <string name="btn_mail">Почта</string>
+
+    <string name="dialog_link_title">Ссылки</string>
+
+    <string name="no_network">Нет соеденения с интернетом, проверьте ваше соединение.</string>
+    <string name="about_me">Minx Ver 0.1 \nCreate By Kartik Sharma</string>
+    <string name="libraries_used">Использованные библиотеки</string>
+
+    <string-array name="library_name">
+        <item>Jsoup</item>
+        <item>Butter Knife</item>
+        <item>MaterialDrawer</item>
+        <item>Custom Font</item>
+        <item>Material Ripple Layout</item>
+        <item>Material Dialogs</item>
+        <item>Material-ish Progress</item>
+        <item>BetterSpinner</item>
+    </string-array>
+
+    <string-array name="library_desc">
+        <item>Library for working with real-world HTML. It provides a very convenient API for extracting and manipulating data, using the best of DOM, CSS, and jquery-like methods.</item>
+        <item>ButterKnife is a view "injection" library for Android which uses annotation processing to generate boilerplate code for you.</item>
+        <item>The MaterialDrawer library aims to provide a quick and easy Activity to create and implement a drawer layout in your application.</item>
+        <item>This library let you apply custom fonts to your android projects.</item>
+        <item>Material-ripple allows to add ripple effect wrapper for Android views.</item>
+        <item>Material-dialogs library allows you to use a consistently Material themed dialog on all versions of Android, along with specific customizations that make it easier to brand the dialog.</item>
+        <item>Materialish-progress is a material style progress wheel compatible with 2.3.</item>
+        <item>An alternative to default spinners in android with a sweet touch of material design.</item>
+    </string-array>
+
+    <string-array name="library_url">
+        <item>https://github.com/jhy/jsoup/</item>
+        <item>https://github.com/JakeWharton/butterknife</item>
+        <item>https://github.com/mikepenz/MaterialDrawer</item>
+        <item>https://github.com/leonardoxh/CustomFont</item>
+        <item>https://github.com/balysv/material-ripple</item>
+        <item>https://github.com/afollestad/material-dialogs</item>
+        <item>https://github.com/pnikosis/materialish-progress</item>
+        <item>https://github.com/Lesilva/BetterSpinner</item>
+    </string-array>
+
+    <string-array name="drawer_items">
+        <item>Item Home 1</item>
+        <item>Item Home 2</item>
+        <item>Item Home 3</item>
+        <item>Item Home 4</item>
+        <item>Item Settings</item>
+    </string-array>
+    <string name="title_activity_error">ErrorActivity</string>
+    <string name="error_title">Oops!</string>
+    <string name="error_body">Видимо у нас небольшая проблема, пожалуйста перезапустите приложение.</string>
+    <string name="btn_restart_app">Перезапустить приложение</string>
+    <string name="saved_pages">Архив</string>
+    <string name="action_save">Сохранить</string>
+    <string name="drawer_item_saved">Сохраненные</string>
+    <string name="dialog_save_title">Сохранить эту страницу</string>
+    <string name="dialog_save">Сохранить</string>
+    <string name="dialog_save_title_hint">Название</string>
+    <string name="dialog_save_desc_hint">Описание</string>
+    <string name="dialog_save_url_hint">Url</string>
+    <string name="title">Название</string>
+    <string name="url">Url</string>
+    <string name="sharedPrefs">DEFAULT_SP</string>
+    <string name="title_activity_saved_extnd">SavedExtndActivity</string>
+    <string name="action_delete">Удалить</string>
+    <string name="action_share">Поделиться</string>
+    <string name="are_you_sure">Вы уверены?</string>
+    <string name="title_activity_splash">SplashActivity</string>
+    <string name="welcome_splash">Привет</string>
+    <string name="welcome_splash_desc">Минималистичный,\nтекстовый браузер</string>
+    <string name="next">Дальше</string>
+    <string name="previous">Назад</string>
+    <string name="tutorial_splash_search">Вводите любой адрес в строку поиска</string>
+    <string name="tutorial_splash_share">Или вы можете открыть любой адрес из другого приложения.</string>
+    <string name="Ok">Ok</string>
+    <string name="tutorial_splash_title_sample">Заголовок : Lorem ipsum</string>
+    <string name="tutorial_splash_body_sample">Текст : Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo.</string>
+    <string name="tutorial_splash_title_font">Изменить размер шрифта заголовка</string>
+    <string name="tutorial_splash_body_font">Изменить размер шрифта текста</string>
+    <string name="tutorial_splash_change_font">Изменить размер шрифта\n[Стандарт : Заголовок : 30 ; Текст : 20]</string>
+    <string name="pin_splash_title">Защитите свой архив</string>
+    <string name="pin_splash_desc">Введите ПИН-код из 4-х цифр.\nВы так же можете оставить его пустым, если не хотите использовать эту функцию.</string>
+    <string name="pin_hint">ПИН (4 цифры)</string>
+    <string name="pin_old_hint">Старый ПИН</string>
+    <string name="pin_new_hint">Новый ПИН</string>
+    <string name="save_pin">Сохранить ПИН</string>
+
+    <string-array name="splash_title_entries">
+        <item>20</item>
+        <item>25</item>
+        <item>30</item>
+    </string-array>
+
+    <string-array name="splash_body_entries">
+        <item>15</item>
+        <item>20</item>
+        <item>25</item>
+    </string-array>
+
+    <string name="title_activity_init">InitActivity</string>
+    <string name="enter_pin">Пожалуйста, введите ПИН для доступа к архиву.</string>
+    <string name="retrieve_archive">Перейти к архиву</string>
+    <string name="settings">Настройки</string>
+    <string name="changeFontSize">Изменить размер шрифта\n[Стандарт : Заголовок : 30 ; Текст : 20]</string>
+    <string name="resetDatabase">Удалить архивы</string>
+    <string name="resetDatabaseDesc">Удалить все записи из пользовательского архива. Использование этой функции удалит каждую сохраненную статью.</string>
+    <string name="resetPIN">Сбросить ПИН</string>
+    <string name="resetPINDesc">Сбросить ПИН. Вам понадобится текущий ПИН для того, чтобы изменить его.</string>
+    <string name="minx_website">http://minx.crazyhitty.com</string>
+    <string name="github_website">https://github.com/crazyhitty/minx/</string>
+    <string name="google_plus_website">https://plus.google.com/u/0/+KartikSharma0/posts</string>
+    <string name="mail_id">cr42yh17m4n@gmail.com</string>
+    <string name="mail_subject">Regarding Minx Development</string>
+    <string name="confirm_PIN">Подтвердить PIN</string>
+    <string name="new_pin_dialog_title">Еще нет ПИН-кода</string>
+    <string name="new_PIN">Введите новый ПИН</string>
+    <string name="new_pin_enter">Еще нет ПИН-кода</string>
+
+</resources>
